@@ -10,7 +10,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 
-def load_data(bulge_factor):
+def visualize(bulge_factor):
     """load data files"""
     xx = np.loadtxt("potential.dat")[:, 0]
     potential = np.loadtxt("potential.dat")[:, 1]
